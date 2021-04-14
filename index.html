@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <canvas id="unity-canvas" width=1920 height=1080></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/PrototypeABtesting2.0.loader.js";
+      var loaderUrl = buildUrl + "/PrototypeAB19201080.loader.js";
       var config = {
-        dataUrl: buildUrl + "/PrototypeABtesting2.0.data",
-        frameworkUrl: buildUrl + "/PrototypeABtesting2.0.framework.js",
-        codeUrl: buildUrl + "/PrototypeABtesting2.0.wasm",
+        dataUrl: buildUrl + "/PrototypeAB19201080.data",
+        frameworkUrl: buildUrl + "/PrototypeAB19201080.framework.js",
+        codeUrl: buildUrl + "/PrototypeAB19201080.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "OnlineLecturePrototype",
@@ -95,8 +95,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1920px";
+        canvas.style.height = "1080px";
       }
 
       loadingBar.style.display = "block";
